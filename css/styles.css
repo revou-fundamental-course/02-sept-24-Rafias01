@@ -1,1 +1,71 @@
-/*ini css
+/*ini css*/
+
+.main-header{
+    text-align: center;
+}
+
+.selection-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.selection-btn{
+    height: 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bisque-color{
+    background-color: bisque;
+}
+
+.white-color{
+    background-color: white;
+}
+
+.luas-segitiga-header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.luas-segitiga-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.luas-segitiga-img{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://asset.kompas.com/crops/ZwOr6ZrEtAtid5uZmYhDFijYPa4=/175x161:1573x1094/750x500/data/photo/2022/03/09/62288763c6d64.png);
+    background-position: center;
+    background-size: cover;
+    align-self: center;
+}
+
+.luas-segitiga-form-header{
+    text-align: center;
+}
+
+.input-wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-wrapper>input{
+    width: 65%;
+}
+
+.main-content{
+    display: flex;
+
+}
+
+.main-content>aside{
+    flex: 1;
+}
