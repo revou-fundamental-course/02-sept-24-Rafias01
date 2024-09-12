@@ -16,7 +16,7 @@
         <section class="selection-content">
             <button href="#" type="button" class="selection-btn bisque-color">Segitiga</button>
 
-            <button href="#" type="button" class="selection-btn white-color"> JajarGenjang</button>
+            <button href="#" type="button" class="selection-btn lightsteelblue-color"> JajarGenjang</button>
         </section>
 
         <section class="main-content">
@@ -29,7 +29,6 @@
                     <div class="luas-segitiga-img"></div>
                 </article>
     
-                <hr/>
     
                 <form>
                     <header>
@@ -38,53 +37,66 @@
     
                     <div class="input-wrapper">
                         <label for="panjang-alas">Panjang Alas :</label>
-                        <input id="panjang-alas1"/>
+                        <input id="panjang-alas" type="number"/>
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi :</label>
-                        <input id="tinggi1"/>
+                        <input id="tinggi" type="number"/>
                     </div>
-    
-                    <p id="result"> Hasil Perhitungan</p>
-    
-                    <button onclick="">Hitung</button>
+                    <br>
+
+                    <div class="input-wrapper">
+                        <label for="hasil-luas-segitiga" > Hasil : </label>
+                        <input type="text" id="hasil-luas-segitiga" name="hasil">                 
+                    </div>  
+                    
+                    <p>
+                        <input type="button" onclick="luasSegitiga()" value="Hitung"/>
+  
+                    </p>
+
                 </form>
     
             </aside>
     
             <aside>
                 <header>
-                    <h1 class="luas-segitiga-header">Keliling Segitiga</h1>
+                    <h1 class="keliling-segitiga-header">Keliling Segitiga</h1>
                 </header>
     
-                <article class="luas-segitiga-content">
+                <article class="keliling-segitiga-content">
                     <div class="luas-segitiga-img"></div>
                 </article>
     
-                <hr/>
     
                 <form>
                     <header>
-                        <h1 class="luas-segitiga-form-header"> Hitung Keliling Segitiga</h1>
+                        <h1 class="keliling-segitiga-form-header"> Hitung Keliling Segitiga</h1>
                     </header>
     
                     <div class="input-wrapper">
-                        <label for="panjang-alas">s1 :</label>
-                        <input id="panjang-alas"/>
+                        <label for="sisi-1">s1 :</label>
+                        <input id="sisi-1" type="number"/>
                     </div>
                     <div class="input-wrapper">
-                        <label for="tinggi">s2 :</label>
-                        <input id="tinggi"/>
+                        <label for="sisi-2">s2 :</label>
+                        <input id="sisi-2" type="number"/>
                     </div>
                     <div class="input-wrapper">
-                        <label for="tinggi">s3 :</label>
-                        <input id="tinggi"/>
+                        <label for="sisi-3">s3 :</label>
+                        <input id="sisi-3" type="number"/>
                     </div>
-    
-                    <p id="result"> Hasil Perhitungan</p>
-    
-                    <button>Hitung</button>
-                </form>
+                    <br>
+                    <div class="input-wrapper">
+                        <label for="hasil-keliling-segitiga" > Hasil : </label>
+                        <input type="text" id="hasil-keliling-segitiga" name="hasil">                 
+                    </div>  
+                    
+                    <p>
+                        <input type="button" onclick="kelilingSegitiga()" value="Hitung"/>
+  
+                    </p>
+                    </form>
     
             </aside>
         </section>

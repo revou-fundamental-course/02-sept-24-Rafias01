@@ -1,6 +1,4 @@
- ini css
-
-.main-header{
+ .main-header{
     text-align: center;
 }
 
@@ -20,22 +18,30 @@
     background-color: bisque;
 }
 
-.white-color{
-    background-color: white;
-}
+.lightsteelblue {
+        background-color: lightsteelblue;
+    }
 
 .luas-segitiga-header{
     padding-top: 32px;
     padding-bottom: 32px;
     margin: 0px;
-    background: cornflowerblue;
+    background: rgb(159, 227, 11);
     text-align: center;
 }
-
+.keliling-segitiga-header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: rgba(217, 227, 19, 0.895);
+    text-align: center;
+}
 .luas-segitiga-content{
     display: flex;
     flex-direction: column;
 }
+
+
 
 .luas-segitiga-img{
     height: 200px;
